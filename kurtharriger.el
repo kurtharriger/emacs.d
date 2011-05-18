@@ -11,8 +11,8 @@
   (color-theme-ir-black)
   ;;  (global-set-key (kbd "\C-x\C-c") 'save-buffers-kill-emacs)
   (global-unset-key (kbd "\C-x\C-c"))
-  ;;  (global-set-key (kbd "s-w") 'delete-frame)
-  (global-set-key (kbd "s-w") 'server-edit)
+  (global-set-key (kbd "s-w") 'delete-frame)
+  (global-set-key (kbd "s-K") 'server-edit)
   (server-start))
 
 ;; MouseTerm
