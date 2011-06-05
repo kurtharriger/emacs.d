@@ -50,7 +50,7 @@
 
 (defun my-quit ()
   (interactive)
-  (if (server-clients)
+  (if server-clients
       (do 
           (if server-buffer-clients (server-edit))
           (make-frame-invisible nil t))
@@ -78,11 +78,18 @@
 
 (add-hook 'server-switch-hook 
   (lambda ()
-    (local-set-key (kbd "C-x k") 'my-kill))
-                   
+    (local-set-key (kbd "C-x k") 'my-kill)))
 
-(unless (and (functionp 'server-running-p)  (server-running-p))
-   (server-start))
+(setq default-major-mode 'org-mode)
+
+;;(unless (and (functionp 'server-running-p)  (server-running-p))
+;;  (server-start))
+
+
+;;(setq mac-option-key-is-meta nil)
+;;(setq mac-command-key-is-meta t)
+;;(setq mac-command-modifier 'meta)
+;;(setq mac-option-modifier nil)
 
 
 
