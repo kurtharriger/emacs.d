@@ -1,6 +1,6 @@
-[submodule "kurtharriger/ecb"]
-	path = kurtharriger/ecb
-	url = git@github.com:kurtharriger/ecb.git
-[submodule "kurtharriger/cedit"]
-	path = kurtharriger/cedit
+[submodule "kurtharriger/cedet"]
+	path = kurtharriger/cedet
 	url = git@github.com:kurtharriger/cedet.git
+[submodule "kurtharriger/emacs-groovy-mode"]
+	path = kurtharriger/emacs-groovy-mode
+	url = git@github.com:kurtharriger/emacs-groovy-mode.git
