@@ -26,8 +26,8 @@
 (add-hook 'after-make-window-system-frame-hooks
           '(lambda ()
              (require 'alpha)
-             (require 'color-theme-ir-black)
-             (modify-frame-parameters (selected-frame) '((alpha . 85)))
+;;             (require 'color-theme-ir-black)
+;;             (modify-frame-parameters (selected-frame) '((alpha . 85)))
 ;;             (color-theme-ir-black)
              ;;  (global-set-key (kbd "\C-x\C-c") 'save-buffers-kill-emacs)
              ;; (global-unset-key (kbd "\C-x\C-c"))
@@ -91,6 +91,7 @@
 ;;(setq mac-command-modifier 'meta)
 ;;(setq mac-option-modifier nil)
 
+(require 'jde)
 
 
 
