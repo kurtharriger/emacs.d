@@ -1,3 +1,6 @@
 [submodule "kurtharriger/ecb"]
 	path = kurtharriger/ecb
 	url = git@github.com:kurtharriger/ecb.git
+[submodule "kurtharriger/cedit"]
+	path = kurtharriger/cedit
+	url = git@github.com:kurtharriger/cedet.git
