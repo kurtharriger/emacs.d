@@ -28,7 +28,7 @@
              (require 'alpha)
              (require 'color-theme-ir-black)
              (modify-frame-parameters (selected-frame) '((alpha . 85)))
-             (color-theme-ir-black)
+;;             (color-theme-ir-black)
              ;;  (global-set-key (kbd "\C-x\C-c") 'save-buffers-kill-emacs)
              ;; (global-unset-key (kbd "\C-x\C-c"))
              ;; (global-set-key (kbd "s-w") 'delete-frame)
