@@ -1,0 +1,6 @@
+.#*
+.DS_Store
+.emacs.desktop
+auto-save-list
+places
+elpa/archives
