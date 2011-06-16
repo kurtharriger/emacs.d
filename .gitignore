@@ -5,3 +5,6 @@ auto-save-list
 places
 elpa/archives
 *~
+.savehist
+autosaves/
+.emacs.desktop.lock
