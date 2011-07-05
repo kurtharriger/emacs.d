@@ -1,0 +1,1 @@
+(require 'moz-reload-mode)
