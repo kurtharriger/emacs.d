@@ -1,6 +1,3 @@
-[submodule "kurtharriger/cedet"]
-	path = kurtharriger/cedet
-	url = git@github.com:kurtharriger/cedet.git
 [submodule "kurtharriger/emacs-groovy-mode"]
 	path = kurtharriger/emacs-groovy-mode
 	url = git@github.com:kurtharriger/emacs-groovy-mode.git
