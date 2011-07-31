@@ -8,3 +8,4 @@ elpa/archives
 .savehist
 autosaves/
 .emacs.desktop.lock
+starter-kit/loaddefs.el
