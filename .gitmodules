@@ -3,4 +3,4 @@
 	url = git@github.com:kurtharriger/emacs-groovy-mode.git
 [submodule "vendor/coffee-mode"]
 	path = vendor/coffee-mode
-	url = git://github.com/defunkt/coffee-mode.git
+	url = git@github.com:kurtharriger/coffee-mode.git
