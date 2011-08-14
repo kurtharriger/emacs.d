@@ -4,3 +4,6 @@
 [submodule "vendor/coffee-mode"]
 	path = vendor/coffee-mode
 	url = git@github.com:kurtharriger/coffee-mode.git
+[submodule "vendor/project-mode"]
+	path = vendor/project-mode
+	url = git@github.com:kurtharriger/emacs-project-mode.git
