@@ -9,3 +9,4 @@ elpa/archives
 autosaves/
 .emacs.desktop.lock
 starter-kit/loaddefs.el
+loaddefs.el
